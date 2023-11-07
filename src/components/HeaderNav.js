@@ -13,12 +13,11 @@ const HeaderNav = () => {
     width: '100%',
     height: '100%',
     display: 'flex',
-    justifyContent: 'space-between',
+    justifyContent: 'space-around',
     alignItems: 'center',
-    padding: '0 5px',
   };
 
-  const listElement = {
+  const listEleStyles = {
     color: '#fff',
     textDecoration: 'none',
   };
@@ -29,7 +28,7 @@ const HeaderNav = () => {
       <ul style={listStyles}>
         {navItems.map((item, index) => (
           <li key={index}>
-            <a style={listElement} href="#">
+            <a style={listEleStyles} href="#">
               {item}
             </a>
           </li>

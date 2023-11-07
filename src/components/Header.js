@@ -6,6 +6,8 @@ import HeaderNav from './HeaderNav';
 const Header = () => {
   const headerStyles = {
     height: '40px',
+    maxWidth: '1600px',
+    margin: '0 auto',
     backgroundColor: '#e7eaf6',
     display: 'flex',
     justifyContent: 'space-between',
