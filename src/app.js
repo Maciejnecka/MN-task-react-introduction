@@ -1,5 +1,6 @@
 'use strict';
 import React from 'react';
+import './style.css';
 import { createRoot } from 'react-dom/client';
 import Header from './components/Header';
 import Content from './components/Content';
@@ -16,4 +17,5 @@ const App = () => {
     </>
   );
 };
+
 root.render(<App />);
